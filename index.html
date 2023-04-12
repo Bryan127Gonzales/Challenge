@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="ESTILO.css" />
+    <title>Encriptador de texto</title>
+  </head>
+  <body>
+    <div class="contenido" id="contenedor">
+      <h1>Encriptador de texto</h1>
+      <label>Ingrese un mensaje: </label>
+      <!--<input class="texto" id="texto_enviado" placeholder="Ingrese su mensaje"/>-->
+      <br />
+      <textarea id="texto_enviado" rows="3" cols="50"></textarea>
+      <br />
+      <input
+        class="boton_encriptar"
+        id="boton_encriptar"
+        type="button"
+        value="Encriptar"
+      />
+      <input
+        class="boton_desencriptar"
+        id="boton_desencriptar"
+        type="button"
+        value="Desencriptar"
+      />
+      <br /><br />
+      <label>Resultado</label>
+      <br />
+      <textarea id="salida" rows="3" cols="50"></textarea>
+    </div>
+    <!--<input type="text" id="salida"/>-->
+    <script src="script.js"></script>
+  </body>
+</html>
